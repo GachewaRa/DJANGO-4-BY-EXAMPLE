@@ -1,878 +1,881 @@
 [
-{
-  "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2024-04-28T15:56:15.130Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "Know Thyself as The Real Education",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2024-04-28T17:11:42.264Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "The War of Art",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2024-05-05T08:57:45.307Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "Inventing General Relativity",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2024-05-05T09:00:07.048Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "Uncertainty and Complementarity",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2024-05-05T09:01:29.842Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "Everyone Is a Creator",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2024-05-05T09:02:28.457Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "6",
-    "object_repr": "Tuning In",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2024-05-13T15:06:17.316Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "Know Thyself as The Real Education",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2024-05-15T09:46:36.744Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "Markdown Post",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2024-05-15T10:42:59.325Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "Markdown Post",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2024-05-15T10:44:51.264Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "Markdown Post",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2024-05-15T11:11:27.824Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "Markdown Post",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2024-05-18T10:25:42.139Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "1",
-    "object_repr": "localhost:8000",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 1,
-  "fields": {
-    "name": "Can add log entry",
-    "content_type": 1,
-    "codename": "add_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 2,
-  "fields": {
-    "name": "Can change log entry",
-    "content_type": 1,
-    "codename": "change_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 3,
-  "fields": {
-    "name": "Can delete log entry",
-    "content_type": 1,
-    "codename": "delete_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 4,
-  "fields": {
-    "name": "Can view log entry",
-    "content_type": 1,
-    "codename": "view_logentry"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 5,
-  "fields": {
-    "name": "Can add permission",
-    "content_type": 2,
-    "codename": "add_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 6,
-  "fields": {
-    "name": "Can change permission",
-    "content_type": 2,
-    "codename": "change_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 7,
-  "fields": {
-    "name": "Can delete permission",
-    "content_type": 2,
-    "codename": "delete_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 8,
-  "fields": {
-    "name": "Can view permission",
-    "content_type": 2,
-    "codename": "view_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 9,
-  "fields": {
-    "name": "Can add group",
-    "content_type": 3,
-    "codename": "add_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 10,
-  "fields": {
-    "name": "Can change group",
-    "content_type": 3,
-    "codename": "change_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 11,
-  "fields": {
-    "name": "Can delete group",
-    "content_type": 3,
-    "codename": "delete_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 12,
-  "fields": {
-    "name": "Can view group",
-    "content_type": 3,
-    "codename": "view_group"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 13,
-  "fields": {
-    "name": "Can add user",
-    "content_type": 4,
-    "codename": "add_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 14,
-  "fields": {
-    "name": "Can change user",
-    "content_type": 4,
-    "codename": "change_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 15,
-  "fields": {
-    "name": "Can delete user",
-    "content_type": 4,
-    "codename": "delete_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 16,
-  "fields": {
-    "name": "Can view user",
-    "content_type": 4,
-    "codename": "view_user"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 17,
-  "fields": {
-    "name": "Can add content type",
-    "content_type": 5,
-    "codename": "add_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 18,
-  "fields": {
-    "name": "Can change content type",
-    "content_type": 5,
-    "codename": "change_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 19,
-  "fields": {
-    "name": "Can delete content type",
-    "content_type": 5,
-    "codename": "delete_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 20,
-  "fields": {
-    "name": "Can view content type",
-    "content_type": 5,
-    "codename": "view_contenttype"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 21,
-  "fields": {
-    "name": "Can add session",
-    "content_type": 6,
-    "codename": "add_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 22,
-  "fields": {
-    "name": "Can change session",
-    "content_type": 6,
-    "codename": "change_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 23,
-  "fields": {
-    "name": "Can delete session",
-    "content_type": 6,
-    "codename": "delete_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 24,
-  "fields": {
-    "name": "Can view session",
-    "content_type": 6,
-    "codename": "view_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 25,
-  "fields": {
-    "name": "Can add post",
-    "content_type": 7,
-    "codename": "add_post"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 26,
-  "fields": {
-    "name": "Can change post",
-    "content_type": 7,
-    "codename": "change_post"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 27,
-  "fields": {
-    "name": "Can delete post",
-    "content_type": 7,
-    "codename": "delete_post"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 28,
-  "fields": {
-    "name": "Can view post",
-    "content_type": 7,
-    "codename": "view_post"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 29,
-  "fields": {
-    "name": "Can add comment",
-    "content_type": 8,
-    "codename": "add_comment"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 30,
-  "fields": {
-    "name": "Can change comment",
-    "content_type": 8,
-    "codename": "change_comment"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 31,
-  "fields": {
-    "name": "Can delete comment",
-    "content_type": 8,
-    "codename": "delete_comment"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 32,
-  "fields": {
-    "name": "Can view comment",
-    "content_type": 8,
-    "codename": "view_comment"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 33,
-  "fields": {
-    "name": "Can add tag",
-    "content_type": 9,
-    "codename": "add_tag"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 34,
-  "fields": {
-    "name": "Can change tag",
-    "content_type": 9,
-    "codename": "change_tag"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 35,
-  "fields": {
-    "name": "Can delete tag",
-    "content_type": 9,
-    "codename": "delete_tag"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 36,
-  "fields": {
-    "name": "Can view tag",
-    "content_type": 9,
-    "codename": "view_tag"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 37,
-  "fields": {
-    "name": "Can add tagged item",
-    "content_type": 10,
-    "codename": "add_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 38,
-  "fields": {
-    "name": "Can change tagged item",
-    "content_type": 10,
-    "codename": "change_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 39,
-  "fields": {
-    "name": "Can delete tagged item",
-    "content_type": 10,
-    "codename": "delete_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 40,
-  "fields": {
-    "name": "Can view tagged item",
-    "content_type": 10,
-    "codename": "view_taggeditem"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 41,
-  "fields": {
-    "name": "Can add site",
-    "content_type": 11,
-    "codename": "add_site"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 42,
-  "fields": {
-    "name": "Can change site",
-    "content_type": 11,
-    "codename": "change_site"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 43,
-  "fields": {
-    "name": "Can delete site",
-    "content_type": 11,
-    "codename": "delete_site"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 44,
-  "fields": {
-    "name": "Can view site",
-    "content_type": 11,
-    "codename": "view_site"
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$720000$MEArfp1xKaTTt2pLgASMrP$XQPKHfN32GnDoQJY+yrKHGBxf+tye/SDD80ddy1/Q9E=",
-    "last_login": "2024-05-15T09:43:45.288Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "gachewaadrian@gmail.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2024-04-28T15:41:55.273Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 1,
-  "fields": {
-    "app_label": "admin",
-    "model": "logentry"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 2,
-  "fields": {
-    "app_label": "auth",
-    "model": "permission"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 3,
-  "fields": {
-    "app_label": "auth",
-    "model": "group"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 4,
-  "fields": {
-    "app_label": "auth",
-    "model": "user"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 5,
-  "fields": {
-    "app_label": "contenttypes",
-    "model": "contenttype"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 6,
-  "fields": {
-    "app_label": "sessions",
-    "model": "session"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 7,
-  "fields": {
-    "app_label": "blog",
-    "model": "post"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 8,
-  "fields": {
-    "app_label": "blog",
-    "model": "comment"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 9,
-  "fields": {
-    "app_label": "taggit",
-    "model": "tag"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 10,
-  "fields": {
-    "app_label": "taggit",
-    "model": "taggeditem"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 11,
-  "fields": {
-    "app_label": "sites",
-    "model": "site"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "4gs416m7xiprep1om2sxyeujj86kbye9",
-  "fields": {
-    "session_data": ".eJxVjEsOwiAUAO_C2pAH5VNcuu8ZCDweUjWQlHZlvLsh6UK3M5N5Mx-Ovfij0-bXxK5MsMsviwGfVIdIj1DvjWOr-7ZGPhJ-2s6Xluh1O9u_QQm9jK0UWkcnADKQETKRUw4BIYeoM0UrElmnUCuczDxjdEYasEA52DSZzD5f1EI30Q:1s7BAn:IDsSjsJB-QzgZszBoQGsxFxjzux_W3EyzYgu11LIKNw",
-    "expire_date": "2024-05-29T09:43:45.631Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "crluidrd9seeu3sgy5mesmo45jdxio9k",
-  "fields": {
-    "session_data": ".eJxVjEsOwiAUAO_C2pAH5VNcuu8ZCDweUjWQlHZlvLsh6UK3M5N5Mx-Ovfij0-bXxK5MsMsviwGfVIdIj1DvjWOr-7ZGPhJ-2s6Xluh1O9u_QQm9jK0UWkcnADKQETKRUw4BIYeoM0UrElmnUCuczDxjdEYasEA52DSZzD5f1EI30Q:1s16hW:LZ2nqA2LE0WjOATdHLxmqubBEyrmPLIUxN_JHAUmPX8",
-    "expire_date": "2024-05-12T15:44:26.755Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "gzhiwa3dlqholhfu4t4p7q06p5nr6hgr",
-  "fields": {
-    "session_data": ".eJxVjEsOwiAUAO_C2pAH5VNcuu8ZCDweUjWQlHZlvLsh6UK3M5N5Mx-Ovfij0-bXxK5MsMsviwGfVIdIj1DvjWOr-7ZGPhJ-2s6Xluh1O9u_QQm9jK0UWkcnADKQETKRUw4BIYeoM0UrElmnUCuczDxjdEYasEA52DSZzD5f1EI30Q:1s6XBc:vfVQGAU-qD5Th_MbSTzH5H7S8s8i087fzitAXEOZ0So",
-    "expire_date": "2024-05-27T15:01:56.645Z"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 1,
-  "fields": {
-    "title": "Know Thyself as The Real Education",
-    "slug": "know-thyself-as-the-real-education",
-    "author": 1,
-    "body": "In the grand tapestry of human experience, few adages hold as much weight as the ancient maxim \"know thyself.\" Carved into the walls of the Temple of Apollo at Delphi, this seemingly simple directive holds the key to unlocking a life of purpose, meaning, and ultimately, true fulfillment.\r\nWhile education often focuses on acquiring knowledge of the external world, \"knowing thyself\" delves inwards, urging us to embark on a lifelong journey of self-discovery. This introspection forms the very foundation upon which true education and enlightenment can be built, ultimately leading us to create an ideal and fulfilling life.",
-    "publish": "2024-04-28T15:51:44Z",
-    "created": "2024-04-28T15:56:15.075Z",
-    "updated": "2024-05-13T15:06:17.272Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 2,
-  "fields": {
-    "title": "The War of Art",
-    "slug": "the-war-of-art",
-    "author": 1,
-    "body": "Every sun casts a shadow, and genius’s shadow is Resistance. As powerful as is our soul’s call to realization, so potent are the forces of Resistance arrayed against it. Resistance is faster than a speeding bullet, more powerful than a locomotive, harder to kick than crack cocaine. We’re not alone if we’ve been mowed down by Resistance; millions of good men and women have bitten the dust before us. And here’s the biggest bitch: We don’t even know what hit us.\r\n\r\nResistance defeats us. If tomorrow morning by some stroke of magic every dazed and benighted soul woke up with the power to take the first step toward pursuing his or her dreams, every shrink in the directory would be out of business. Prisons would stand empty. The alcohol and tobacco industries would collapse, along with the junk food, cosmetic surgery, and infotainment businesses, not to mention pharmaceutical companies, hospitals, and the medical profession from top to bottom.",
-    "publish": "2024-04-28T17:10:08Z",
-    "created": "2024-04-28T17:11:42.148Z",
-    "updated": "2024-04-28T17:11:42.148Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 3,
-  "fields": {
-    "title": "Inventing General Relativity",
-    "slug": "inventing-general-relativity",
-    "author": 1,
-    "body": "But the creative principle resides in mathematics. In a certain sense, therefore, I hold it true that pure thought can grasp reality, as the ancients dreamed.\r\n-ALBERT EINSTEIN\r\n\r\nThis illustrates the 6rst main idea of general relativity that it is impossible to distinguish the effect of gravity from a nonuniform motion (like that of the accelerating spaceship).\r\nInside the spaceship we feel real gravity. If we didn't know we were in outer space traveling in a spaceship, then we could not determine that the effect of \"gravity\" we feel was due to the accelerating movement of the entire ship.\r\nThe fact that we cannot physically distinguish a nonuniform motion like an acceleration from gravity is called the principle of equivalence-the equivalence of nonuniform motion and gravity.\r\n\r\ngravity is precisely equivalent to nonuniform motion.\r\n\r\nRiemannian geometry\r\n\r\nBut Einstein saw that gravity was a superfluous concept-there isn't any \"gravitational force.\" What actually happens is that the mass of a planet--or any mass~ curves the space near it, altering its geometry. Light always moves in a straight line-but a straight line as defined in a curved space. Einstein dispensed with the notion of gravity in favour of the geometry of curved space. In effect, he discovered that gravity is geometry. That is the central conclusion of general relativity.\r\nWe may summarize the main ideas of general relativity as follows: First, we recognize the equivalence principle-that gravity and a nonuniform motion are indistinguishahle. Second, as a separate idea, we must recognize that determining the geometry of space is an experimental problem. By shooting laser light beams around we can map out the curved geometry of our space. These two ideas, the equivalence principle and the curvature of space, can be combined if we recognize that the path of light-which we use to determine the curved geometry of space--is subject to the influence of gravity. The nonuniform motion of a light beam-its bending in space--is equivalent to the effect of gravity in that region of space. But rather than thinking that a light path \"bends\" in the presence of \"gravity,\" we should instead realize that \"gravity\" is really manifested as curved space and light beams are moving along the shortest path in that curved space.\r\nGravity is the curvature of space.",
-    "publish": "2024-05-05T08:56:34Z",
-    "created": "2024-05-05T08:57:45.281Z",
-    "updated": "2024-05-05T08:57:45.281Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 4,
-  "fields": {
-    "title": "Uncertainty and Complementarity",
-    "slug": "uncertainty-and-complementarity",
-    "author": 1,
-    "body": "It is wrong to think that the task of physics is to find out how Nature is. Physics concerns what we can say about Nature.\r\n-NIELS BOHR\r\nDeterminism-the world view that nature and our own life are completely determined from past to future--reflects the human need for certainty in an uncertain world. The projection of that need is the all-knowing God some people find in the Bible, a God who knows the past and future down to the finest detail-like a film that has already been developed. We may not have seen the film, but what it holds for us is already fixed\".\r\nClassical physics supported the worldview of determinism.\r\nAccording to classical physics, the laws of nature completely specify the past and future down to the finest detail.\r\nThe universe was like a perfect clock: once we knew the position of its parts at one instant, they would be forever specified.\r\nHuman beings could not. of course, know the positions and velocities of all the particles in the universe at one instant. But invoking the medieval concept of \"the mind of God,\" we could imagine that this perfect mind knows the configuration of all the particles, past and future.",
-    "publish": "2024-05-05T08:57:49Z",
-    "created": "2024-05-05T09:00:07.035Z",
-    "updated": "2024-05-05T09:00:07.035Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 5,
-  "fields": {
-    "title": "Everyone Is a Creator",
-    "slug": "everyone-is-a-creator",
-    "author": 1,
-    "body": "Creativity is a fundamental aspect of being human. It’s our birthright. And it’s for all of us. Creativity doesn’t exclusively relate to making art. We all engage in this act on a daily basis.\r\n\r\nIn each moment, we are immersed in a field of undifferentiated matter from which our senses gather bits of information. The outside universe we perceive doesn’t exist as such. Through a series of electrical and chemical reactions, we generate a reality internally. We create forests and oceans, warmth and cold. We read words, hear voices, and form interpretations. Then, in an instant, we produce a response. All of this in a world of our own creation. \r\nRegardless of whether or not we’re formally making art, we are all living as artists. We perceive, filter, and collect data, then curate an experience for ourselves and others based on this information set. Whether we do this consciously or unconsciously, by the mere fact of being alive, we are active participants in the ongoing process of creation. \r\nTo live as an artist is a way of being in the world. A way of perceiving. A practice of paying attention. Refining our sensitivity to tune in to the more subtle notes. Looking for what  draws us in and what pushes us away. Noticing what feeling tones arise and where they lead. \r\nAttuned choice by attuned choice, your entire life is a form of self-expression. You exist as a creative being in a creative universe. A singular work of art.",
-    "publish": "2024-05-05T09:00:50Z",
-    "created": "2024-05-05T09:01:29.833Z",
-    "updated": "2024-05-05T09:01:29.833Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 6,
-  "fields": {
-    "title": "Tuning In",
-    "slug": "tuning-in",
-    "author": 1,
-    "body": "Think of the universe as an eternal creative unfolding. Trees blossom. Cells replicate. Rivers forge new tributaries. The world pulses with productive energy, and everything that exists on this planet is driven by that energy. \r\nEvery manifestation of this unfolding is doing its own work on behalf of the universe, each in its own way, true to its own creative impulse.\r\n\r\nHow does the cloud know when to rain? How does the tree know when spring begins? How does the bird know when it’s time to build a new nest?\r\nThe universe functions like a clock:\r\n\t\t\t\r\n\t\t\t\tTo everything—\r\n\t\t\t\tThere is a season—\r\n\t\t\t\tAnd a time to every purpose under heaven\r\n\t\t\t\tA time to be born, a time to die\r\n\t\t\t\tA time to plant, a time to reap\r\n\t\t\t\tA time to kill, a time to heal\r\n\t\t\t\tA time to laugh, a time to weep\r\n\t\t\t\tA time to build up, a time to break down\r\n\t\t\t\tA time to dance, a time to mourn\r\n\t\t\t\tA time to cast away stones\r\n\t\t\t\tA time to gather stones together\r\n\t\t\t\r\nThese rhythms are not set by us. We are all participating in a larger creative act we are not conducting. We are being conducted. The artist is on a cosmic timetable, just like all of nature.\r\nIf you have an idea you’re excited about and you don’t bring it to life, it’s not uncommon for the idea to find its voice through another maker. This isn’t because the other artist stole your idea, but because the idea’s time has come.",
-    "publish": "2024-05-05T09:01:32Z",
-    "created": "2024-05-05T09:02:28.443Z",
-    "updated": "2024-05-05T09:02:28.443Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.post",
-  "pk": 7,
-  "fields": {
-    "title": "Markdown Post",
-    "slug": "markdown-post",
-    "author": 1,
-    "body": "This is a post formatted with markdown\r\n\r\n_This is emphasized_ and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
-    "publish": "2024-05-15T09:43:50Z",
-    "created": "2024-05-15T09:46:36.730Z",
-    "updated": "2024-05-15T11:11:27.812Z",
-    "status": "published"
-  }
-},
-{
-  "model": "blog.comment",
-  "pk": 1,
-  "fields": {
-    "post": 6,
-    "name": "Adrian",
-    "email": "gachewaadrian@gmail.com",
-    "body": "This is a great perspective!",
-    "created": "2024-05-11T10:22:20.871Z",
-    "updated": "2024-05-11T10:22:20.871Z",
-    "active": true
-  }
-},
-{
-  "model": "taggit.tag",
-  "pk": 1,
-  "fields": {
-    "name": "jazz",
-    "slug": "jazz"
-  }
-},
-{
-  "model": "taggit.tag",
-  "pk": 2,
-  "fields": {
-    "name": "django",
-    "slug": "django"
-  }
-},
-{
-  "model": "taggit.tag",
-  "pk": 3,
-  "fields": {
-    "name": "music",
-    "slug": "music"
-  }
-},
-{
-  "model": "taggit.tag",
-  "pk": 4,
-  "fields": {
-    "name": "education",
-    "slug": "education"
-  }
-},
-{
-  "model": "taggit.tag",
-  "pk": 5,
-  "fields": {
-    "name": "self",
-    "slug": "self"
-  }
-},
-{
-  "model": "taggit.tag",
-  "pk": 6,
-  "fields": {
-    "name": "markdown",
-    "slug": "markdown"
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 4,
-  "fields": {
-    "tag": 4,
-    "content_type": 7,
-    "object_id": 1
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 5,
-  "fields": {
-    "tag": 5,
-    "content_type": 7,
-    "object_id": 1
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 6,
-  "fields": {
-    "tag": 6,
-    "content_type": 7,
-    "object_id": 7
-  }
-},
-{
-  "model": "sites.site",
-  "pk": 1,
-  "fields": {
-    "domain": "localhost:8000",
-    "name": "localhost:8000"
-  }
-}
-]
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-04-28T15:56:15.130Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Know Thyself as The Real Education",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-04-28T17:11:42.264Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "The War of Art",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-05-05T08:57:45.307Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Inventing General Relativity",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-05-05T09:00:07.048Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Uncertainty and Complementarity",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-05-05T09:01:29.842Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Everyone Is a Creator",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-05-05T09:02:28.457Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Tuning In",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-05-13T15:06:17.316Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Know Thyself as The Real Education",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-05-15T09:46:36.744Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Markdown Post",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-05-15T10:42:59.325Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Markdown Post",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-05-15T10:44:51.264Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Markdown Post",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-05-15T11:11:27.824Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Markdown Post",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-05-18T10:25:42.139Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "localhost:8000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add post",
+      "content_type": 7,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change post",
+      "content_type": 7,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete post",
+      "content_type": 7,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view post",
+      "content_type": 7,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add comment",
+      "content_type": 8,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change comment",
+      "content_type": 8,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete comment",
+      "content_type": 8,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view comment",
+      "content_type": 8,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add tag",
+      "content_type": 9,
+      "codename": "add_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change tag",
+      "content_type": 9,
+      "codename": "change_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete tag",
+      "content_type": 9,
+      "codename": "delete_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view tag",
+      "content_type": 9,
+      "codename": "view_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add tagged item",
+      "content_type": 10,
+      "codename": "add_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change tagged item",
+      "content_type": 10,
+      "codename": "change_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete tagged item",
+      "content_type": 10,
+      "codename": "delete_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view tagged item",
+      "content_type": 10,
+      "codename": "view_taggeditem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add site",
+      "content_type": 11,
+      "codename": "add_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change site",
+      "content_type": 11,
+      "codename": "change_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete site",
+      "content_type": 11,
+      "codename": "delete_site"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view site",
+      "content_type": 11,
+      "codename": "view_site"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$MEArfp1xKaTTt2pLgASMrP$XQPKHfN32GnDoQJY+yrKHGBxf+tye/SDD80ddy1/Q9E=",
+      "last_login": "2024-05-15T09:43:45.288Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "gachewaadrian@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-04-28T15:41:55.273Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "blog",
+      "model": "post"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "blog",
+      "model": "comment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "taggit",
+      "model": "tag"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "taggit",
+      "model": "taggeditem"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "sites",
+      "model": "site"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4gs416m7xiprep1om2sxyeujj86kbye9",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2pAH5VNcuu8ZCDweUjWQlHZlvLsh6UK3M5N5Mx-Ovfij0-bXxK5MsMsviwGfVIdIj1DvjWOr-7ZGPhJ-2s6Xluh1O9u_QQm9jK0UWkcnADKQETKRUw4BIYeoM0UrElmnUCuczDxjdEYasEA52DSZzD5f1EI30Q:1s7BAn:IDsSjsJB-QzgZszBoQGsxFxjzux_W3EyzYgu11LIKNw",
+      "expire_date": "2024-05-29T09:43:45.631Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "crluidrd9seeu3sgy5mesmo45jdxio9k",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2pAH5VNcuu8ZCDweUjWQlHZlvLsh6UK3M5N5Mx-Ovfij0-bXxK5MsMsviwGfVIdIj1DvjWOr-7ZGPhJ-2s6Xluh1O9u_QQm9jK0UWkcnADKQETKRUw4BIYeoM0UrElmnUCuczDxjdEYasEA52DSZzD5f1EI30Q:1s16hW:LZ2nqA2LE0WjOATdHLxmqubBEyrmPLIUxN_JHAUmPX8",
+      "expire_date": "2024-05-12T15:44:26.755Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gzhiwa3dlqholhfu4t4p7q06p5nr6hgr",
+    "fields": {
+      "session_data": ".eJxVjEsOwiAUAO_C2pAH5VNcuu8ZCDweUjWQlHZlvLsh6UK3M5N5Mx-Ovfij0-bXxK5MsMsviwGfVIdIj1DvjWOr-7ZGPhJ-2s6Xluh1O9u_QQm9jK0UWkcnADKQETKRUw4BIYeoM0UrElmnUCuczDxjdEYasEA52DSZzD5f1EI30Q:1s6XBc:vfVQGAU-qD5Th_MbSTzH5H7S8s8i087fzitAXEOZ0So",
+      "expire_date": "2024-05-27T15:01:56.645Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "Know Thyself as The Real Education",
+      "slug": "know-thyself-as-the-real-education",
+      "author": 1,
+      "body": "In the grand tapestry of human experience, few adages hold as much weight as the ancient maxim \"know thyself.\" Carved into the walls of the Temple of Apollo at Delphi, this seemingly simple directive holds the key to unlocking a life of purpose, meaning, and ultimately, true fulfillment.\r\nWhile education often focuses on acquiring knowledge of the external world, \"knowing thyself\" delves inwards, urging us to embark on a lifelong journey of self-discovery. This introspection forms the very foundation upon which true education and enlightenment can be built, ultimately leading us to create an ideal and fulfilling life.",
+      "publish": "2024-04-28T15:51:44Z",
+      "created": "2024-04-28T15:56:15.075Z",
+      "updated": "2024-05-13T15:06:17.272Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "The War of Art",
+      "slug": "the-war-of-art",
+      "author": 1,
+      "body": "Every sun casts a shadow. As powerful as is our soulï¿½s call to realization, so potent are the forces of Resistance arrayed against it. Resistance is faster than a speeding bullet, more powerful than a locomotive, harder to kick than crack cocaine. Weï¿½re not alone if weï¿½ve been mowed down by Resistance; millions of good men and women have bitten the dust before us. And hereï¿½s the biggest bitch: We donï¿½t even know what hit us.\r\n\r\nResistance defeats us. If tomorrow morning by some stroke of magic every dazed and benighted soul woke up with the power to take the first step toward pursuing his or her dreams, every shrink in the directory would be out of business. Prisons would stand empty. The alcohol and tobacco industries would collapse, along with the junk food, cosmetic surgery, and infotainment businesses, not to mention pharmaceutical companies, hospitals, and the medical profession from top to bottom.",
+      "publish": "2024-04-28T17:10:08Z",
+      "created": "2024-04-28T17:11:42.148Z",
+      "updated": "2024-04-28T17:11:42.148Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "Inventing General Relativity",
+      "slug": "inventing-general-relativity",
+      "author": 1,
+      "body": "But the creative principle resides in mathematics. In a certain sense, therefore, I hold it true that pure thought can grasp reality, as the ancients dreamed.\r\n-ALBERT EINSTEIN\r\n\r\nThis illustrates the 6rst main idea of general relativity that it is impossible to distinguish the effect of gravity from a nonuniform motion (like that of the accelerating spaceship).\r\nInside the spaceship we feel real gravity. If we didn't know we were in outer space traveling in a spaceship, then we could not determine that the effect of \"gravity\" we feel was due to the accelerating movement of the entire ship.\r\nThe fact that we cannot physically distinguish a nonuniform motion like an acceleration from gravity is called the principle of equivalence-the equivalence of nonuniform motion and gravity.\r\n\r\ngravity is precisely equivalent to nonuniform motion.\r\n\r\nRiemannian geometry\r\n\r\nBut Einstein saw that gravity was a superfluous concept-there isn't any \"gravitational force.\" What actually happens is that the mass of a planet--or any mass~ curves the space near it, altering its geometry. Light always moves in a straight line-but a straight line as defined in a curved space. Einstein dispensed with the notion of gravity in favour of the geometry of curved space. In effect, he discovered that gravity is geometry. That is the central conclusion of general relativity.\r\nWe may summarize the main ideas of general relativity as follows: First, we recognize the equivalence principle-that gravity and a nonuniform motion are indistinguishahle. Second, as a separate idea, we must recognize that determining the geometry of space is an experimental problem. By shooting laser light beams around we can map out the curved geometry of our space. These two ideas, the equivalence principle and the curvature of space, can be combined if we recognize that the path of light-which we use to determine the curved geometry of space--is subject to the influence of gravity. The nonuniform motion of a light beam-its bending in space--is equivalent to the effect of gravity in that region of space. But rather than thinking that a light path \"bends\" in the presence of \"gravity,\" we should instead realize that \"gravity\" is really manifested as curved space and light beams are moving along the shortest path in that curved space.\r\nGravity is the curvature of space.",
+      "publish": "2024-05-05T08:56:34Z",
+      "created": "2024-05-05T08:57:45.281Z",
+      "updated": "2024-05-05T08:57:45.281Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "title": "Uncertainty and Complementarity",
+      "slug": "uncertainty-and-complementarity",
+      "author": 1,
+      "body": "It is wrong to think that the task of physics is to find out how Nature is. Physics concerns what we can say about Nature.\r\n-NIELS BOHR\r\nDeterminism-the world view that nature and our own life are completely determined from past to future--reflects the human need for certainty in an uncertain world. The projection of that need is the all-knowing God some people find in the Bible, a God who knows the past and future down to the finest detail-like a film that has already been developed. We may not have seen the film, but what it holds for us is already fixed\".\r\nClassical physics supported the worldview of determinism.\r\nAccording to classical physics, the laws of nature completely specify the past and future down to the finest detail.\r\nThe universe was like a perfect clock: once we knew the position of its parts at one instant, they would be forever specified.\r\nHuman beings could not. of course, know the positions and velocities of all the particles in the universe at one instant. But invoking the medieval concept of \"the mind of God,\" we could imagine that this perfect mind knows the configuration of all the particles, past and future.",
+      "publish": "2024-05-05T08:57:49Z",
+      "created": "2024-05-05T09:00:07.035Z",
+      "updated": "2024-05-05T09:00:07.035Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "title": "Everyone Is a Creator",
+      "slug": "everyone-is-a-creator",
+      "author": 1,
+      "body": "Creativity is a fundamental aspect of being human. Itï¿½s our birthright. And itï¿½s for all of us. Creativity doesnï¿½t exclusively relate to making art. We all engage in this act on a daily basis.\r\n\r\nIn each moment, we are immersed in a field of undifferentiated matter from which our senses gather bits of information. The outside universe we perceive doesnï¿½t exist as such. Through a series of electrical and chemical reactions, we generate a reality internally. We create forests and oceans, warmth and cold. We read words, hear voices, and form interpretations. Then, in an instant, we produce a response. All of this in a world of our own creation. \r\nRegardless of whether or not weï¿½re formally making art, we are all living as artists. We perceive, filter, and collect data, then curate an experience for ourselves and others based on this information set. Whether we do this consciously or unconsciously, by the mere fact of being alive, we are active participants in the ongoing process of creation. \r\nTo live as an artist is a way of being in the world. A way of perceiving. A practice of paying attention. Refining our sensitivity to tune in to the more subtle notes. Looking for what  draws us in and what pushes us away. Noticing what feeling tones arise and where they lead. \r\nAttuned choice by attuned choice, your entire life is a form of self-expression. You exist as a creative being in a creative universe. A singular work of art.",
+      "publish": "2024-05-05T09:00:50Z",
+      "created": "2024-05-05T09:01:29.833Z",
+      "updated": "2024-05-05T09:01:29.833Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "title": "Tuning In",
+      "slug": "tuning-in",
+      "author": 1,
+      "body": "Think of the universe as an eternal creative unfolding. Trees blossom. Cells replicate. Rivers forge new tributaries. The world pulses with productive energy, and everything that exists on this planet is driven by that energy. \r\nEvery manifestation of this unfolding is doing its own work on behalf of the universe, each in its own way, true to its own creative impulse.\r\n\r\nHow does the cloud know when to rain? How does the tree know when spring begins? How does the bird know when itï¿½s time to build a new nest?\r\nThe universe functions like a clock:\r\n\t\t\t\r\n\t\t\t\tTo everythingï¿½\r\n\t\t\t\tThere is a seasonï¿½\r\n\t\t\t\tAnd a time to every purpose under heaven\r\n\t\t\t\tA time to be born, a time to die\r\n\t\t\t\tA time to plant, a time to reap\r\n\t\t\t\tA time to kill, a time to heal\r\n\t\t\t\tA time to laugh, a time to weep\r\n\t\t\t\tA time to build up, a time to break down\r\n\t\t\t\tA time to dance, a time to mourn\r\n\t\t\t\tA time to cast away stones\r\n\t\t\t\tA time to gather stones together\r\n\t\t\t\r\nThese rhythms are not set by us. We are all participating in a larger creative act we are not conducting. We are being conducted. The artist is on a cosmic timetable, just like all of nature.\r\nIf you have an idea youï¿½re excited about and you donï¿½t bring it to life, itï¿½s not uncommon for the idea to find its voice through another maker. This isnï¿½t because the other artist stole your idea, but because the ideaï¿½s time has come.",
+      "publish": "2024-05-05T09:01:32Z",
+      "created": "2024-05-05T09:02:28.443Z",
+      "updated": "2024-05-05T09:02:28.443Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+      "title": "Markdown Post",
+      "slug": "markdown-post",
+      "author": 1,
+      "body": "This is a post formatted with markdown\r\n\r\n_This is emphasized_ and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+      "publish": "2024-05-15T09:43:50Z",
+      "created": "2024-05-15T09:46:36.730Z",
+      "updated": "2024-05-15T11:11:27.812Z",
+      "status": "published"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "post": 6,
+      "name": "Adrian",
+      "email": "gachewaadrian@gmail.com",
+      "body": "This is a great perspective!",
+      "created": "2024-05-11T10:22:20.871Z",
+      "updated": "2024-05-11T10:22:20.871Z",
+      "active": true
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+      "name": "jazz",
+      "slug": "jazz"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+      "name": "django",
+      "slug": "django"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+      "name": "music",
+      "slug": "music"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+      "name": "education",
+      "slug": "education"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+      "name": "self",
+      "slug": "self"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 6,
+    "fields": {
+      "name": "markdown",
+      "slug": "markdown"
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+      "tag": 4,
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+      "tag": 5,
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+      "tag": 6,
+      "content_type": 7,
+      "object_id": 7
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "domain": "localhost:8000",
+      "name": "localhost:8000"
+    }
+  }
+  ]
+  
+  
+  
