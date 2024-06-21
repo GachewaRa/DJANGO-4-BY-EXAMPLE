@@ -1,5 +1,7 @@
 {% extends "base.html" %}
+
 {% block title %}{{ image.title }}{% endblock %}
+
 {% block content %}
     <h1>{{ image.title }}</h1>
     {% load thumbnail %}
@@ -10,7 +12,8 @@
         <div class="image-info">
             <div>
                 <span class="count">
-                    {{ total_likes }} like{{ total_likes|pluralize }}
+                    <span class="total">{{ total_likes }}</span>
+                    like<span class="pluralize">{% if total_likes != 1 %}s{% endif %}</span>
                 </span>
                 
                 <a href="#" id="like-button" data-id="{{ image.id }}" data-action="{% if request.user in users_like %}un{% endif %}like" class="like button">
@@ -23,9 +26,6 @@
             </div>
             {{ image.description|linebreaks }}
         </div>
-
-        <script>console.log("DOM is loading")</script>
-
         <div class="image-likes">
             {% for user in users_like %}
                 <div>
@@ -35,53 +35,71 @@
                     <p>{{ user.first_name }}</p>
                 </div>
             {% empty %}
-                Nobody likes this image yet.
+                <p class="no-likes">Nobody likes this image yet.</p>
             {% endfor %}
         </div>
     {% endwith %}
+
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
-                console.log('DOM fully loaded and parsed');
-                const url = '{% url "images:like" %}';
-                const csrftoken = Cookies.get('csrftoken');
-    
-                var options = {
-                    method: 'POST',
-                    headers: {'X-CSRFToken': csrftoken},
-                    mode: 'same-origin'
-                };
-    
-                document.querySelector('a.like').addEventListener('click', function(e) {
-                    e.preventDefault();
-                    console.log('Like button clicked');
-                    var likeButton = this;
-    
-                    // add request body
-                    var formData = new FormData();
-                    formData.append('id', likeButton.dataset.id);
-                    formData.append('action', likeButton.dataset.action);
-                    options.body = formData;
-    
-                    // send HTTP request
-                    fetch(url, options)
-                    .then(response => response.json())
-                    .then(data => {
-                        console.log('Fetch response:', data);
-                        if (data.status === 'ok') {
-                            var previousAction = likeButton.dataset.action;
-                            // toggle button text and data-action
-                            var action = previousAction === 'like' ? 'unlike' : 'like';
-                            likeButton.dataset.action = action;
-                            likeButton.innerHTML = action;
-                            // update like count
-                            var likeCount = document.querySelector('span.count .total');
+            console.log('DOM fully loaded and parsed');
+            const url = '{% url "images:like" %}';
+            const csrftoken = Cookies.get('csrftoken');
+
+            var options = {
+                method: 'POST',
+                headers: {'X-CSRFToken': csrftoken},
+                mode: 'same-origin'
+            };
+
+            document.querySelector('a.like').addEventListener('click', function(e) {
+                e.preventDefault();
+                console.log('Like button clicked');
+                var likeButton = this;
+
+                // add request body
+                var formData = new FormData();
+                formData.append('id', likeButton.dataset.id);
+                formData.append('action', likeButton.dataset.action);
+                options.body = formData;
+
+                // send HTTP request
+                fetch(url, options)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Fetch response:', data);
+                    if (data.status === 'ok') {
+                        var previousAction = likeButton.dataset.action;
+                        // toggle button text and data-action
+                        var action = previousAction === 'like' ? 'unlike' : 'like';
+                        likeButton.dataset.action = action;
+                        likeButton.innerHTML = action;
+
+                        // update like count
+                        var likeCount = document.querySelector('span.count .total');
+                        var pluralize = document.querySelector('span.count .pluralize');
+                        var noLikesMessage = document.querySelector('.no-likes');
+                        if (likeCount) {
                             var totalLikes = parseInt(likeCount.innerHTML);
-                            likeCount.innerHTML = previousAction === 'like' ? totalLikes + 1 : totalLikes - 1;
+                            totalLikes = previousAction === 'like' ? totalLikes + 1 : totalLikes - 1;
+                            likeCount.innerHTML = totalLikes;
+                            pluralize.innerHTML = totalLikes !== 1 ? 's' : '';
+                            
+                            // Update or remove the "Nobody likes this image yet" message
+                            if (noLikesMessage) {
+                                if (totalLikes > 0) {
+                                    noLikesMessage.style.display = 'none';
+                                } else {
+                                    noLikesMessage.style.display = 'block';
+                                }
+                            }
+                        } else {
+                            console.error('Error: likeCount element not found.');
                         }
-                    })
-                    .catch(error => console.error('Error:', error));
-                });
+                    }
+                })
+                .catch(error => console.error('Error:', error));
             });
-    
+        });
     </script>
 {% endblock %}
