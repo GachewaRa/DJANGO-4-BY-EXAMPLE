@@ -12,6 +12,7 @@ from .forms import ModuleFormSet
 from django.forms.models import modelform_factory
 from django.apps import apps
 from .models import Module, Content
+from django.core.cache import cache
 
 # Create your views here.
 class OwnerMixin:
@@ -167,8 +168,10 @@ class CourseListView(TemplateResponseMixin, View):
     template_name = 'courses/course/list.html'
     
     def get(self, request, subject=None):
-        subjects = Subject.objects.annotate(
-            total_courses=Count('courses'))
+        subjects = cache.get('all_subjects')
+        if not subjects:
+            subjects = Subject.objects.annotate(total_courses=Count('courses'))
+            cache.set('all_subjects', subjects)
         courses = Course.objects.annotate(
             total_modules=Count('modules'))
         if subject:
