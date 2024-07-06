@@ -6,6 +6,7 @@ from django.contrib.auth import authenticate, login
 from django.views.generic.edit import FormView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import CourseEnrollForm
+from django.views.decorators.cache import cache_page
 
 # Create your views here.
 
