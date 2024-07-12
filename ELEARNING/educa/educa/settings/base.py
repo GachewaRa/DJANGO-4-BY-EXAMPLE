@@ -24,7 +24,7 @@ LOGIN_REDIRECT_URL = reverse_lazy('student_course_list')
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=(+t+*jxlcyf4ji)-(kb#wy@b&!7*6^mq!$np5ega42ly+$0tr'
+SECRET_KEY = 'jdcdwt777JFDStfsjdjcdsdskckdfB711=(+t+*jxlcyf4ji)-(kb#wy@b&!7*6^mq!$np5ega42ly+$0tr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -132,6 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
